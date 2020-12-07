@@ -58,3 +58,5 @@ document.addEventListener("wheel", () => {
 document.addEventListener("keydown", () => alert("key is submitted!"));
 
 document.addEventListener("copy", () => alert("Copyright warning notice!"));
+
+document.addEventListener("drag", () => alert("Content can't be moved!"));
